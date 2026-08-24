@@ -115,20 +115,6 @@ A profile creation form for entering user details such as name, email, and inter
 
 ---
 
-### 🔄 Switch Profile
-<img width="508" height="473" alt="Switch Profile" src="https://github.com/user-attachments/assets/6125c587-4507-4495-bfe0-7d4222091e39" />
-  
-A dialog to switch between multiple user profiles, showing names, emails, and start dates.
-
----
-
-### 🧾 Current Profile
-<img width="458" height="492" alt="Current Profile" src="https://github.com/user-attachments/assets/0256f2f6-6f8a-48a6-bbe3-a37b10fb4cf5" />
-  
-A profile details view displaying user information, profile ID, and selected habits.
-
----
-
 ### 📤 Export & Reporting
 <img width="580" height="590" alt="Export   Reporting" src="https://github.com/user-attachments/assets/92903caf-8769-432f-9276-535b3af24537" />
   
