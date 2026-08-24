@@ -81,13 +81,6 @@ A summary dashboard displaying total CO₂ saved, active users, total actions, a
 
 ---
 
-### 📈 Dashboard Analytics
-<img width="908" height="620" alt="Dashboard Analytics" src="https://github.com/user-attachments/assets/ffc74fc7-fb38-4698-af32-5221a68996f6" />
-  
-Detailed analytics with category-wise CO₂ savings, top performers, and recent activity logs for better insights.
-
----
-
 ### 📝 Log Action
 <img width="776" height="612" alt="Log Action" src="https://github.com/user-attachments/assets/53334334-166a-450c-a3f7-9d9e1f585e34" />
  
