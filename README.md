@@ -1,4 +1,4 @@
-# 🌱 EcoShift – Carbon Footprint Tracker
+# EcoShift – Carbon Footprint Tracker
 
 **EcoShift** is a full-stack web application that helps individuals track sustainable daily habits, measure their environmental impact, and understand how everyday choices contribute to reducing CO₂ emissions.
 
@@ -6,15 +6,19 @@ The platform transforms sustainability activities into measurable insights throu
 
 ---
 
-## 🎯 Challenge Details
+## Challenge Details
 
 ### Chosen Vertical
 
 **Environmental Sustainability & Habit Tracking**
 
+---
+
 ### Problem
 
 Many people want to adopt sustainable habits but struggle to understand the measurable environmental impact of their everyday actions. EcoShift addresses this gap by converting common sustainable activities into understandable **CO₂ savings metrics**.
+
+---
 
 ### Approach & Logic
 
@@ -29,6 +33,8 @@ EcoShift allows users to:
 7. Export collected data and reports for further analysis or presentation.
 
 The backend processes each activity using predefined CO₂ factors and stores the resulting records in a lightweight **SQLite database**.
+
+---
 
 ### How the Solution Works
 
@@ -50,6 +56,8 @@ Analytics & Dashboard
 Reports / CSV / Presentation Data
 ```
 
+---
+
 ### Assumptions
 
 * CO₂ emission factors are based on predefined standard estimates for supported activities.
@@ -60,20 +68,22 @@ Reports / CSV / Presentation Data
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🌱 Sustainable Habit Tracking
+### Sustainable Habit Tracking
 
 Track everyday environmentally friendly activities such as:
 
-* 🚲 Cycling
-* 🌿 Plant-based meals
-* ♻️ Recycling
-* 🚶 Walking
-* 🚌 Public transportation
+* Cycling
+* Plant-based meals
+* Recycling
+* Walking
+* Public transportation
 * And other configurable sustainability actions
 
-### 📊 Interactive Impact Dashboard
+---
+
+### Interactive Impact Dashboard
 
 Monitor important sustainability metrics including:
 
@@ -85,7 +95,9 @@ Monitor important sustainability metrics including:
 * Top-performing users
 * Impact within a selected date range
 
-### 👤 Profile Management
+---
+
+### Profile Management
 
 Users can:
 
@@ -94,7 +106,9 @@ Users can:
 * Switch between profiles
 * Manage individual sustainability activity records
 
-### 📝 Activity Logging
+---
+
+### Activity Logging
 
 Each sustainability activity can include:
 
@@ -104,7 +118,9 @@ Each sustainability activity can include:
 * Optional notes
 * Automatically calculated CO₂ savings
 
-### 📅 Date-Based Analytics
+---
+
+### Date-Based Analytics
 
 Analyze environmental impact using:
 
@@ -113,7 +129,9 @@ Analyze environmental impact using:
 * Historical activity records
 * Filtered dashboard statistics
 
-### 📈 Data Visualization
+---
+
+### Data Visualization
 
 Interactive visualizations powered by **Chart.js** provide a clearer understanding of:
 
@@ -122,7 +140,9 @@ Interactive visualizations powered by **Chart.js** provide a clearer understandi
 * User performance
 * Overall community impact
 
-### 📤 Export & Reporting
+---
+
+### Export & Reporting
 
 EcoShift provides multiple ways to use the collected data:
 
@@ -132,7 +152,9 @@ EcoShift provides multiple ways to use the collected data:
 * Presentation-ready data
 * Stakeholder-oriented insights
 
-### 💾 Local Storage
+---
+
+### Local Storage
 
 Browser local storage is used for:
 
@@ -142,7 +164,7 @@ Browser local storage is used for:
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 EcoShift follows a modular **MVC-inspired architecture** to keep application logic organized and maintainable.
 
@@ -168,6 +190,8 @@ EcoShift
     └── config.json
 ```
 
+---
+
 ### Architectural Principles
 
 * Separation of concerns
@@ -179,7 +203,7 @@ EcoShift
 
 ---
 
-## 🔐 Security & Reliability
+## Security & Reliability
 
 The application incorporates several security-focused practices:
 
@@ -196,7 +220,7 @@ These measures help reduce common web application security risks while keeping t
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 
 EcoShift is designed with accessibility in mind and follows WCAG-oriented practices including:
 
@@ -210,7 +234,7 @@ EcoShift is designed with accessibility in mind and follows WCAG-oriented practi
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer         | Technologies                                       |
 | ------------- | -------------------------------------------------- |
@@ -243,7 +267,7 @@ The application is structured to support further modularization as the project g
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -299,59 +323,55 @@ http://localhost:3000
 
 ---
 
-## 📸 Application Screenshots
+## Application Screenshots
 
-### 🏠 Landing Page
+### Landing Page
 
-The landing page introduces EcoShift and communicates the platform's sustainability-focused purpose with a clear call-to-action for users.
-
-### 📊 Impact Dashboard
-
-The dashboard provides a consolidated view of environmental impact, including:
-
-* Total CO₂ savings
-* Active users
-* Total sustainable actions
-* Average savings per person
-* Category-level analytics
-
-### 📝 Log Sustainable Action
-
-Users can record sustainability activities by entering:
-
-* Habit
-* Date
-* Quantity
-* Optional notes
-
-The application automatically calculates the estimated CO₂ savings associated with the activity.
-
-### 📝 Recent Actions
-
-Users can review recently recorded activities along with relevant information such as:
-
-* Activity date
-* Habit
-* Quantity
-* Estimated CO₂ savings
-
-### 👤 Create Profile
-
-Users can create a sustainability profile using information such as:
-
-* Name
-* Email
-* Internship start date
-
-### 📤 Export & Reporting
-
-The reporting interface provides access to different export options for analysis, documentation, and presentations.
+<img width="984" height="614" alt="Landing Page" src="https://github.com/user-attachments/assets/2c20af64-7cbe-4a8d-a2dd-fc6f98642cd9" />
+  
+*The landing page introduces EcoShift with key features and a clear call-to-action for users to get started.*
 
 ---
 
-## 📤 Export Capabilities
+### Impact Dashboard
 
-EcoShift supports multiple reporting formats and use cases.
+<img width="996" height="501" alt="Impact Dashboard" src="https://github.com/user-attachments/assets/09e04943-9619-4702-ad48-7eadf507de44" />
+  
+*A summary dashboard displaying total CO₂ saved, active users, total actions, and average savings per person within a selected date range.*
+
+---
+
+### Log Action
+
+<img width="776" height="612" alt="Log Action" src="https://github.com/user-attachments/assets/53334334-166a-450c-a3f7-9d9e1f585e34" />
+ 
+*A form to log sustainable actions with fields for habit selection, date, quantity, and optional notes.*
+
+---
+
+### My Recent Actions
+
+<img width="753" height="416" alt="Log Action (2)" src="https://github.com/user-attachments/assets/b73b73b9-7bc5-4f3d-b27c-10ac54090f30" />
+  
+*A list of recently logged sustainable actions with details like date, quantity, and CO₂ savings.*
+
+---
+
+### Create Profile
+
+<img width="760" height="527" alt="Create Profile" src="https://github.com/user-attachments/assets/f8f7db40-af7f-4ccc-9ec9-bc6dfedb9f8c" />
+  
+*A profile creation form for entering user details such as name, email, and internship start date.*
+
+---
+
+### Export & Reporting
+
+<img width="580" height="590" alt="Export   Reporting" src="https://github.com/user-attachments/assets/92903caf-8769-432f-9276-535b3af24537" />
+  
+*An export and reporting interface offering options to download CSV data, generate summary reports, and prepare presentation-ready insights.*
+
+---
 
 ### CSV Export
 
@@ -362,13 +382,19 @@ Provides raw activity data suitable for:
 * Data analysis
 * Further processing
 
+---
+
 ### Summary Report
 
 Provides an executive-level overview containing important sustainability metrics.
 
+---
+
 ### Individual Reports
 
 Provides user-specific sustainability progress and activity summaries.
+
+---
 
 ### Presentation Data
 
@@ -381,7 +407,7 @@ Generates stakeholder-ready insights that can be used for:
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 Application settings can be managed through:
 
@@ -398,6 +424,8 @@ The configuration system supports settings related to:
 * Data retention
 * Export formats
 
+---
+
 ### Data Retention
 
 Default retention period:
@@ -405,6 +433,8 @@ Default retention period:
 ```text
 365 days
 ```
+
+---
 
 ### Supported Export Formats
 
@@ -414,15 +444,19 @@ Default retention period:
 
 ---
 
-## 📡 REST API
+## REST API
 
 EcoShift exposes RESTful API endpoints for managing users, habits, activity logs, and dashboard information.
+
+---
 
 ### Habits
 
 ```http
 GET /api/habits
 ```
+
+---
 
 Retrieve available sustainability habits.
 
@@ -435,6 +469,8 @@ GET /api/users
 
 Create and retrieve user profiles.
 
+---
+
 ### User Habits
 
 ```http
@@ -444,6 +480,8 @@ GET /api/users/:userId/habits
 
 Manage habits associated with a specific user.
 
+---
+
 ### Activity Logs
 
 ```http
@@ -452,6 +490,8 @@ GET /api/users/:userId/logs
 ```
 
 Create and retrieve sustainability activity records.
+
+---
 
 ### Dashboard
 
@@ -463,7 +503,7 @@ Retrieve aggregated sustainability and CO₂ impact metrics.
 
 ---
 
-## 📊 CO₂ Impact Calculation
+## CO₂ Impact Calculation
 
 EcoShift uses predefined emission factors to estimate the environmental impact of logged activities.
 
@@ -487,7 +527,7 @@ These values are estimates intended to make sustainability impact easier to unde
 
 ---
 
-## 🌍 Community Impact
+## Community Impact
 
 EcoShift is not limited to individual progress.
 
@@ -503,7 +543,7 @@ This helps turn individual sustainable choices into a measurable community-level
 
 ---
 
-## 🔄 Example User Journey
+## Example User Journey
 
 ```text
 1. User opens EcoShift
@@ -524,51 +564,9 @@ This helps turn individual sustainable choices into a measurable community-level
         ↓
 9. Data can be exported as reports
 ```
-## 📸 Screenshots
-
-### 🏠 Landing Page
-<img width="984" height="614" alt="Landing Page" src="https://github.com/user-attachments/assets/2c20af64-7cbe-4a8d-a2dd-fc6f98642cd9" />
-  
-The landing page introduces EcoShift with key features and a clear call-to-action for users to get started.
-
 ---
 
-### 📊 Impact Dashboard
-<img width="996" height="501" alt="Impact Dashboard" src="https://github.com/user-attachments/assets/09e04943-9619-4702-ad48-7eadf507de44" />
-  
-A summary dashboard displaying total CO₂ saved, active users, total actions, and average savings per person within a selected date range.
-
----
-
-### 📝 Log Action
-<img width="776" height="612" alt="Log Action" src="https://github.com/user-attachments/assets/53334334-166a-450c-a3f7-9d9e1f585e34" />
- 
-A form to log sustainable actions with fields for habit selection, date, quantity, and optional notes.
-
----
-
-### 📝 My Recent Actions
-<img width="753" height="416" alt="Log Action (2)" src="https://github.com/user-attachments/assets/b73b73b9-7bc5-4f3d-b27c-10ac54090f30" />
-  
-A list of recently logged sustainable actions with details like date, quantity, and CO₂ savings.
-
----
-
-### 👤 Create Profile
-<img width="760" height="527" alt="Create Profile" src="https://github.com/user-attachments/assets/f8f7db40-af7f-4ccc-9ec9-bc6dfedb9f8c" />
-  
-A profile creation form for entering user details such as name, email, and internship start date.
-
----
-
-### 📤 Export & Reporting
-<img width="580" height="590" alt="Export   Reporting" src="https://github.com/user-attachments/assets/92903caf-8769-432f-9276-535b3af24537" />
-  
-An export and reporting interface offering options to download CSV data, generate summary reports, and prepare presentation-ready insights.
-
----
-
-## 🎯 Project Goals
+## Project Goals
 
 EcoShift was developed with the following goals:
 
@@ -581,22 +579,22 @@ EcoShift was developed with the following goals:
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 Potential future improvements include:
 
-* ☁️ Cloud database integration
-* 📱 Progressive Web App support
-* 🔔 Sustainability reminders and notifications
-* 🤖 AI-powered sustainability recommendations
-* 📍 Location-aware activity tracking
-* 🏆 Gamification and achievement badges
-* 📅 Weekly and monthly sustainability goals
-* 🌎 Advanced carbon-footprint categories
-* 👥 Community challenges and leaderboards
-* 🔐 Authentication and role-based access
-* 📊 Advanced analytics and predictive insights
-* 🌐 Multi-language support
+* Cloud database integration
+* Progressive Web App support
+* Sustainability reminders and notifications
+* AI-powered sustainability recommendations
+* Location-aware activity tracking
+* Gamification and achievement badges
+* Weekly and monthly sustainability goals
+* Advanced carbon-footprint categories
+* Community challenges and leaderboards
+* Authentication and role-based access
+* Advanced analytics and predictive insights
+* Multi-language support
 
 ---
 
@@ -626,7 +624,7 @@ See the [LICENSE](LICENSE) file for more information.
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 Special thanks to:
 
